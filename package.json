@@ -1,0 +1,30 @@
+{
+  "name": "uiza-apm",
+  "version": "1.0.0",
+  "description": "Uiza Elastic APM module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.io/uizaio/uiza-apm"
+  },
+  "keywords": [
+    "Uiza",
+    "APM",
+    "Elastic"
+  ],
+  "author": "locke@uiza.io",
+  "license": "ISC",
+  "dependencies": {
+    "elastic-apm-node": "^2.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "rollup": "^1.12.1",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}
