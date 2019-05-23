@@ -1,6 +1,6 @@
 {
-  "name": "uiza-apm",
-  "version": "1.0.0",
+  "name": "@uiza/uiza-apm",
+  "version": "1.0.2",
   "description": "Uiza Elastic APM module",
   "main": "dist/index.js",
   "scripts": {

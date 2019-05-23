@@ -9,6 +9,11 @@ class UizaApmAgent {
     if (!apm.isStarted()) {
       apm.start(config);
     }
+    apm.addFilter(function (payload) {
+      if (payload.context.request.url.pathname.indexOf("health_check") === -1) {
+        return payload;
+      }
+    });
     return apm;
   }
 }
